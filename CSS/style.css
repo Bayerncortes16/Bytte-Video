@@ -298,10 +298,10 @@ h1 {
 
 /*inicio container home*/
 
-.container-slide{
+.container-photos{
+    background-color: darkkhaki;
     width: 100%;
-    height: 100vh;
-    background-color: blue;
+    height: 80vh;
 }
 
 
