@@ -71,7 +71,7 @@ body{
 
 .section-2{
     background-color: #000000;
-    height: 400vh;
+    height: 650vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -188,7 +188,7 @@ h1 {
 .container-slider{
     background-color: aqua;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -299,10 +299,86 @@ h1 {
 /*inicio container home*/
 
 .container-photos{
-    background-color: darkkhaki;
+    background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 80vh;
+    height: 100vh;
+    margin-top: 15%;
 }
 
+.text-photo{
+    width: 100%;
+    height: 300px;
+    display: block;
+    text-align: center;
+    padding: 50% 14%;
+    background: #3ab1f7;
+    color: #ffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
 
+.text-photo h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 40px 0;
+    margin-top: 110px;
+}
+
+.single-box{
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 45px;
+}
+
+.imagen-area{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 5px solid #ffff;
+    overflow: hidden;
+    top: 15px;
+    left: 125px;
+    border-radius: 50%;
+    margin-top: 110px;
+}
+
+.imagen-area img{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-indicator{
+    left: 0;
+    top: auto;
+    bottom: -70px;
+}
+
+.carousel-indicator li{
+    background-color: #000000;
+    border-radius: 50%;
+    width: 15px;
+    height: 50px;
+}
+
+.carousel-indicator .active{
+    background: #ffff;
+}
+
+.title-galery{
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    font-weight: 900;
+}
 
